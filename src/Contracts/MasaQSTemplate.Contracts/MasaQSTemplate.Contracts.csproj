@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Masa.BuildingBlocks.Authentication.Identity" Version="$(MASAFrameworkVersion)" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Masa.Utils.Models.Config" Version="$(MASAFrameworkVersion)" />
+  </ItemGroup>
+
+</Project>

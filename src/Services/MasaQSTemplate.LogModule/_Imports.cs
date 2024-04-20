@@ -1,0 +1,10 @@
+﻿global using Masa.Contrib.Dispatcher.Events;
+global using Masa.BuildingBlocks.Ddd.Domain.Entities.Full;
+global using Masa.BuildingBlocks.Data.Mapping;
+global using Masa.BuildingBlocks.ReadWriteSplitting.Cqrs.Queries;
+global using Masa.BuildingBlocks.ReadWriteSplitting.Cqrs.Commands;
+global using Masa.Utils.Models;
+global using MasaQSTemplate.Contracts.Log.Dtos;
+global using MasaQSTemplate.LogModule.Entities;
+global using MasaQSTemplate.LogModule.Application.Events;
+global using SqlSugar;

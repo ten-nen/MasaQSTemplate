@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Contracts\MasaQSTemplate.Contracts\MasaQSTemplate.Contracts.csproj" />
+    <ProjectReference Include="..\MasaQSTemplate.BaseModule\MasaQSTemplate.BaseModule.csproj" />
+  </ItemGroup>
+
+</Project>

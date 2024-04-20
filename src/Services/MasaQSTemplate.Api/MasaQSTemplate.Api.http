@@ -1,0 +1,15 @@
+@MasaQSTemplate.Api_HostAddress = http://localhost:5297
+
+### »œ÷§
+POST {{MasaQSTemplate.Api_HostAddress}}/api/User/Auth
+Content-Type: application/json
+
+{
+    "account": "admin",
+    "password": "123456"
+}
+
+### ≤È—Ø
+GET {{MasaQSTemplate.Api_HostAddress}}/api/User?page=1&pagesize=10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjA3YTQ2MzI4LWMyYmItNGY4NC1iMzYwLTJkNTg0MWNhNzBkYiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJbXCJhZG1pblwiXSIsIm5iZiI6MTcxMzMyMjQ1MiwiZXhwIjoxNzEzOTI3MjUyLCJpc3MiOiJNYXNhUVNUZW1wbGF0ZSJ9.h3gOIf8mAdS7HmPSI4hTXN_xt4zGQN66t4wNVtaDi3s
+

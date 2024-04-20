@@ -1,0 +1,11 @@
+﻿global using Masa.Contrib.Dispatcher.Events;
+global using Masa.BuildingBlocks.Ddd.Domain.Entities.Full;
+global using Masa.BuildingBlocks.Data.Mapping;
+global using Masa.BuildingBlocks.ReadWriteSplitting.Cqrs.Queries;
+global using Masa.BuildingBlocks.ReadWriteSplitting.Cqrs.Commands;
+global using Masa.Utils.Models;
+global using MasaQSTemplate.Contracts.Auth.Dtos;
+global using MasaQSTemplate.Contracts.Auth.Enums;
+global using MasaQSTemplate.AuthModule.Entities;
+global using MasaQSTemplate.AuthModule.Application.Events;
+global using SqlSugar;

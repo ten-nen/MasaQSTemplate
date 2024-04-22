@@ -1,0 +1,13 @@
+{
+    "author": "Rick Li",
+    "classifications": [ "WebAPI" ],
+    "name": "MasaQSTemplate",
+    "identity": "MasaQSTemplate",
+    "shortName": "qst",
+    "tags": {
+      "language": "C#" ,
+      "type":"project"
+    },
+    "sourceName": "MasaQSTemplate",
+    "preferNameDirectory": true
+}

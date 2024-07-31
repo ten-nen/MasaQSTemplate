@@ -1,7 +1,7 @@
 # 基于masafx、ant-design-vue-pro，Web后台管理项目模板
 ### 后端：[MASA.Framework](https://github.com/masastack/MASA.Framework) 
 ### O/RM：[SqlSugar](https://github.com/DotNetNext/SqlSugar) 
-### 前端：[vue-admin-project](https://github.com/vueComponent/ant-design-vue-pro)
+### 前端：[ant-design-vue-pro](https://github.com/vueComponent/ant-design-vue-pro)
 
 ### 环境要求：NET8
 
@@ -23,7 +23,7 @@ dotnet build
 dotnet run       
 ```
 
-#### 6、进入app
+#### 4、进入app
 ``` cmd  
 cd Demo\app
 yarn install
